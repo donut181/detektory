@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{url}
+\usepackage{longtable} 
+\newgeometry{lmargin=2.5cm,rmargin=2.5cm}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+\begin{table}[]
+\hspace{-2em}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+	\begin{tabular}[c]{@{}c@{}}Wydział\\ FiIS\end{tabular}&
+	\multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}Imię i nazwisko\\ 1. Piotr Kowalczyk\\ 2. Marcin Polok\end{tabular}}&
+	\begin{tabular}[c]{@{}c@{}}Rok\\ IV\end{tabular}&
+	\begin{tabular}[c]{@{}c@{}}Grupa \\ 2\end{tabular}&
+	\begin{tabular}[c]{@{}c@{}}Zespół \\ 2\end{tabular}
+\\ \hline
+	\begin{tabular}[c]{@{}c@{}}LABORATORIUM\\ DETEKCJI\\ PROMIENIOWANIA\end{tabular}&
+	\multicolumn{5}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Temat\\ Badanie licznika półprzewodnikowego \end{tabular}}}
+\\ \hline
+	\begin{tabular}[c]{@{}c@{}}Data wykonania\\ 3.11.2016\end{tabular}&
+	\multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data oddania\\ 30.11.2016 \end{tabular}}&
+	\multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Zwrot do popr.\\~ \end{tabular}}&
+	\multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data oddania\\~ \end{tabular}}&
+	\multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data zaliczenia\\~ \end{tabular}}&
+	\multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}OCENA\\~ \end{tabular}}
+\\ \hline
+\end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                CEL ĆWICZENIA                                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Wstęp teoretyczny}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                PRZEBIEG ĆWICZENIA                                                          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Przebieg ćwiczenia}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                WYNIKI                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Wyniki}
+
+\begin{figure}[H]
+\centering
+%\resizebox{.82\linewidth}{!}{\input{czas_martwy1.tex}}
+\caption{Pomiar czasu martwego obu detektorów.}
+\label{dead_time}
+\end{figure}
+
+\section{Wnioski}
+
+\section{Dane pomiarowe}
+
+\begin{longtable}{cc}
+\caption{////}\\
+\label{dt2}
+U[V]	&	t[ms] \\ \hline
+\endhead
+1600	&0,124 \\
+\end{longtable}
+
+\begin{thebibliography}{9}
+\bibitem{skrypt1}
+Skrypt Ćwiczenia laboratoryjne z jądrowych metod pomiarowych dostępny pod adresem:\\http://winntbg.bg.agh.edu.pl/skrypty3/0364/dziunikowski-kalita.pdf 
+\end{thebibliography}
+\end{document}
