@@ -135,9 +135,9 @@ pruda piotr
 Do danych dopasowano prostą(\ref{fit_gen}) i na tej podstawie obliczono amplitudę odpowiadającą kanałowi 1424. 
 Otrzymano $A = 205,7$mV.
 Następnie obliczono ładunek zebrany na kondensatorze separującym generator z analizatorem. 
-Czynnik $\frac{1}{45}$ wynika z dzielnika napięcia w układzie, natomiast $C_f$ to pojemność tego kondensatora.
+Czynnik $\frac{1}{45}$ wynika z dzielnika napięcia w układzie, natomiast $C_s$ to pojemność tego kondensatora.
 $$
-Q=\frac{A}{45} \cdot C_f = \frac{0,2057}{45}\cdot 5,75\cdot 10^{-14} [\text{C}] = 2,62\cdot 10^{-16} [\text{C}]
+Q=\frac{A}{45} \cdot C_s = \frac{0,2057}{45}\cdot 5,75\cdot 10^{-14} [\text{C}] = 2,62\cdot 10^{-16} [\text{C}]
 $$
 Dzieląc ten ładunek przez ładunek elektronu otrzymujemy ilość par jakie pojawiłyby się w detektorze w tym kanale.
 $$
@@ -184,7 +184,7 @@ $$\sigma_{całk.} = \frac{55,34}{2,35} = 23,549~ \text{kanału}.$$
 Implikuje to, że $\sigma_{detektor}^2 = 155,91$ kanału.
 Korzystając ze wzoru na współczynnik Fano (\ref{fano}) otrzymujemy
 $$ F = \frac{\sigma_{detektor}^2}{N_0} = \frac{155,91}{1643,04} = 0,095.$$
-Po zaokrągleniu do dzięsiotej częsći po przecinku otrzymujemy dokładnie spodziewaną wartość $0,1$.
+Po zaokrągleniu do dzięsiątej częsći po przecinku otrzymujemy dokładnie spodziewaną wartość $0,1$.
 \section{Wnioski}
 
 \section{Dane pomiarowe}
@@ -201,6 +201,23 @@ U[V]	&peak	&FWHM	&peak	&FWHM\\ \hline
 120	&1424,21	&54,79	&1565,34	&51,33 \\
 100	&1423,45	&58,1	&1558,64	&44,7 \\
 80	&1423,45	&74,27	&-	&- \\
+\end{longtable}
+
+\begin{longtable}{c|c}
+	\caption{Pomiary piku w zależności od amplitudy sygnału z generatora.}\\
+\label{dt2}
+U[V]	&peak	\\ \hline
+\endhead
+0,1	&724,86 \\
+0,2	&1434,81 \\
+0,3	&2144,72 \\
+0,4	&2852,89 \\
+0,5	&3565,12 \\
+0,6	&4279,57 \\
+0,7	&5024,68 \\
+0,8	&5858,06 \\
+0,9	&6731,72 \\
+1	&7542,63 \\
 \end{longtable}
 
 \begin{thebibliography}{9}
