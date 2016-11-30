@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.18)  30 NOV 2016 10:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.18)  30 NOV 2016 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,6 +661,15 @@ LaTeX Warning: Label `fig1' multiply defined.
 LaTeX Warning: Label `fig1' multiply defined.
 
 
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
 LaTeX Warning: Label `dt2' multiply defined.
 
 )
@@ -822,15 +831,20 @@ Package pdftex.def Info: fe.png used on input line 80.
 
 ] (./zelazo_60.tex
 Package epstopdf Info: Source file: <zelazo_60.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 96131 bytes
 (epstopdf)             Output file: <zelazo_60-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:30
-(epstopdf)                    size: 9225 bytes
+(epstopdf)                    date: 2016-11-30 12:20:03
+(epstopdf)                    size: 9223 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_60-eps-converted-to
 .pdf zelazo_60.eps>
 (epstopdf)             \includegraphics on input line 98.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_60-eps-converted-to.pdf zelazo_60.eps)...e
+xecuted safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_60-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:25
+(epstopdf)                    size: 9225 bytes.
 
 <zelazo_60-eps-converted-to.pdf, id=50, 361.35pt x 252.945pt>
 File: zelazo_60-eps-converted-to.pdf Graphic file (type pdf)
@@ -841,15 +855,20 @@ Package pdftex.def Info: zelazo_60-eps-converted-to.pdf used on input line 98.
 ) [2 <./fe.png (PNG copy)>]
 (./zelazo_80.tex
 Package epstopdf Info: Source file: <zelazo_80.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 95483 bytes
 (epstopdf)             Output file: <zelazo_80-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:30
-(epstopdf)                    size: 9087 bytes
+(epstopdf)                    date: 2016-11-30 12:20:03
+(epstopdf)                    size: 9095 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_80-eps-converted-to
 .pdf zelazo_80.eps>
 (epstopdf)             \includegraphics on input line 98.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_80-eps-converted-to.pdf zelazo_80.eps)...e
+xecuted safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:26
+(epstopdf)                    size: 9095 bytes.
  <zelazo_80-eps-converted-to.pdf, id=56, 361.35pt x 252.945pt>
 File: zelazo_80-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -858,15 +877,20 @@ Package pdftex.def Info: zelazo_80-eps-converted-to.pdf used on input line 98.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (./zelazo_100.tex
 Package epstopdf Info: Source file: <zelazo_100.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 90315 bytes
 (epstopdf)             Output file: <zelazo_100-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:31
+(epstopdf)                    date: 2016-11-30 12:20:03
 (epstopdf)                    size: 8677 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_100-eps-converted-t
 o.pdf zelazo_100.eps>
 (epstopdf)             \includegraphics on input line 96.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_100-eps-converted-to.pdf zelazo_100.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_100-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:26
+(epstopdf)                    size: 8677 bytes.
 
 <zelazo_100-eps-converted-to.pdf, id=57, 361.35pt x 252.945pt>
 File: zelazo_100-eps-converted-to.pdf Graphic file (type pdf)
@@ -878,15 +902,20 @@ Package pdftex.def Info: zelazo_100-eps-converted-to.pdf used on input line 96.
 ) [3 <./zelazo_60-eps-converted-to.pdf> <./zelazo_80-eps-converted-to.pdf>] (./
 zelazo_120.tex
 Package epstopdf Info: Source file: <zelazo_120.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 89961 bytes
 (epstopdf)             Output file: <zelazo_120-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:31
+(epstopdf)                    date: 2016-11-30 12:20:04
 (epstopdf)                    size: 8685 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_120-eps-converted-t
 o.pdf zelazo_120.eps>
 (epstopdf)             \includegraphics on input line 96.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_120-eps-converted-to.pdf zelazo_120.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_120-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:27
+(epstopdf)                    size: 8685 bytes.
 
 <zelazo_120-eps-converted-to.pdf, id=68, 361.35pt x 252.945pt>
 File: zelazo_120-eps-converted-to.pdf Graphic file (type pdf)
@@ -897,15 +926,20 @@ Package pdftex.def Info: zelazo_120-eps-converted-to.pdf used on input line 96.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (./zelazo_140.tex
 Package epstopdf Info: Source file: <zelazo_140.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 89917 bytes
 (epstopdf)             Output file: <zelazo_140-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:31
+(epstopdf)                    date: 2016-11-30 12:20:04
 (epstopdf)                    size: 8652 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_140-eps-converted-t
 o.pdf zelazo_140.eps>
 (epstopdf)             \includegraphics on input line 96.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_140-eps-converted-to.pdf zelazo_140.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_140-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:27
+(epstopdf)                    size: 8652 bytes.
 
 <zelazo_140-eps-converted-to.pdf, id=69, 361.35pt x 252.945pt>
 File: zelazo_140-eps-converted-to.pdf Graphic file (type pdf)
@@ -917,15 +951,20 @@ Package pdftex.def Info: zelazo_140-eps-converted-to.pdf used on input line 96.
 ) [4 <./zelazo_100-eps-converted-to.pdf> <./zelazo_120-eps-converted-to.pdf>] (
 ./zelazo_160.tex
 Package epstopdf Info: Source file: <zelazo_160.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 89825 bytes
 (epstopdf)             Output file: <zelazo_160-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:32
+(epstopdf)                    date: 2016-11-30 12:20:04
 (epstopdf)                    size: 8614 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_160-eps-converted-t
 o.pdf zelazo_160.eps>
 (epstopdf)             \includegraphics on input line 96.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_160-eps-converted-to.pdf zelazo_160.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_160-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:27
+(epstopdf)                    size: 8614 bytes.
 
 <zelazo_160-eps-converted-to.pdf, id=80, 361.35pt x 252.945pt>
 File: zelazo_160-eps-converted-to.pdf Graphic file (type pdf)
@@ -936,15 +975,20 @@ Package pdftex.def Info: zelazo_160-eps-converted-to.pdf used on input line 96.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) (./zelazo_200.tex
 Package epstopdf Info: Source file: <zelazo_200.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 91781 bytes
 (epstopdf)             Output file: <zelazo_200-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:32
+(epstopdf)                    date: 2016-11-30 12:20:05
 (epstopdf)                    size: 8898 bytes
 (epstopdf)             Command: <repstopdf --outfile=zelazo_200-eps-converted-t
 o.pdf zelazo_200.eps>
 (epstopdf)             \includegraphics on input line 97.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=zelazo_200-eps-converted-to.pdf zelazo_200.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <zelazo_200-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:28
+(epstopdf)                    size: 8898 bytes.
 
 <zelazo_200-eps-converted-to.pdf, id=81, 361.35pt x 252.945pt>
 File: zelazo_200-eps-converted-to.pdf Graphic file (type pdf)
@@ -954,61 +998,139 @@ Package pdftex.def Info: zelazo_200-eps-converted-to.pdf used on input line 97.
 
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) [5 <./zelazo_140-eps-converted-to.pdf> <./zelazo_160-eps-converted-to.pdf>] (
-./generator.tex
+./1_channel.tex
+Package epstopdf Info: Source file: <1_channel.eps>
+(epstopdf)                    date: 2016-11-30 12:20:22
+(epstopdf)                    size: 16802 bytes
+(epstopdf)             Output file: <1_channel-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:05
+(epstopdf)                    size: 3132 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_channel-eps-converted-to
+.pdf 1_channel.eps>
+(epstopdf)             \includegraphics on input line 104.
+runsystem(repstopdf --outfile=1_channel-eps-converted-to.pdf 1_channel.eps)...e
+xecuted safely (allowed).
+
+Package epstopdf Info: Result file: <1_channel-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:28
+(epstopdf)                    size: 3132 bytes.
+
+<1_channel-eps-converted-to.pdf, id=92, 361.35pt x 252.945pt>
+File: 1_channel-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_channel-eps-converted-to.pdf>
+Package pdftex.def Info: 1_channel-eps-converted-to.pdf used on input line 104.
+
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) (./1_fwhm.tex
+Package epstopdf Info: Source file: <1_fwhm.eps>
+(epstopdf)                    date: 2016-11-30 12:20:22
+(epstopdf)                    size: 16790 bytes
+(epstopdf)             Output file: <1_fwhm-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:05
+(epstopdf)                    size: 3134 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_fwhm-eps-converted-to.pd
+f 1_fwhm.eps>
+(epstopdf)             \includegraphics on input line 104.
+runsystem(repstopdf --outfile=1_fwhm-eps-converted-to.pdf 1_fwhm.eps)...execute
+d safely (allowed).
+
+Package epstopdf Info: Result file: <1_fwhm-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:28
+(epstopdf)                    size: 3134 bytes.
+
+<1_fwhm-eps-converted-to.pdf, id=93, 361.35pt x 252.945pt>
+File: 1_fwhm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_fwhm-eps-converted-to.pdf>
+Package pdftex.def Info: 1_fwhm-eps-converted-to.pdf used on input line 104.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) [6 <./zelazo_200-eps-converted-to.pdf> <./1_channel-eps-converted-to.pdf>] (.
+/1_res.tex
+Package epstopdf Info: Source file: <1_res.eps>
+(epstopdf)                    date: 2016-11-30 12:20:22
+(epstopdf)                    size: 16764 bytes
+(epstopdf)             Output file: <1_res-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:06
+(epstopdf)                    size: 3132 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_res-eps-converted-to.pdf
+ 1_res.eps>
+(epstopdf)             \includegraphics on input line 103.
+runsystem(repstopdf --outfile=1_res-eps-converted-to.pdf 1_res.eps)...executed 
+safely (allowed).
+
+Package epstopdf Info: Result file: <1_res-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:29
+(epstopdf)                    size: 3110 bytes.
+
+<1_res-eps-converted-to.pdf, id=104, 361.35pt x 252.945pt>
+File: 1_res-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_res-eps-converted-to.pdf>
+Package pdftex.def Info: 1_res-eps-converted-to.pdf used on input line 103.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) [7 <./1_fwhm-eps-converted-to.pdf> <./1_res-eps-converted-to.pdf>] (./generat
+or.tex
 Package epstopdf Info: Source file: <generator.eps>
-(epstopdf)                    date: 2016-11-30 10:54:27
+(epstopdf)                    date: 2016-11-30 12:20:22
 (epstopdf)                    size: 17487 bytes
 (epstopdf)             Output file: <generator-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-30 10:54:32
+(epstopdf)                    date: 2016-11-30 12:20:06
 (epstopdf)                    size: 3682 bytes
 (epstopdf)             Command: <repstopdf --outfile=generator-eps-converted-to
 .pdf generator.eps>
 (epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=generator-eps-converted-to.pdf generator.eps)...e
+xecuted safely (allowed).
 
-<generator-eps-converted-to.pdf, id=93, 361.35pt x 252.945pt>
+Package epstopdf Info: Result file: <generator-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-30 12:20:29
+(epstopdf)                    size: 3682 bytes.
+
+<generator-eps-converted-to.pdf, id=117, 361.35pt x 252.945pt>
 File: generator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use generator-eps-converted-to.pdf>
 Package pdftex.def Info: generator-eps-converted-to.pdf used on input line 100.
 
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [6 <./zelazo_200-eps-converted-to.pdf>]
+)
 
-LaTeX Warning: Command \l invalid in math mode on input line 169.
+LaTeX Warning: Command \l invalid in math mode on input line 190.
+
+Missing character: There is no ª in font plmi8!
+[8 <./generator-eps-converted-to.pdf>]
+
+LaTeX Warning: Command \l invalid in math mode on input line 203.
 
 Missing character: There is no ª in font plmi8!
 
-LaTeX Warning: Command \l invalid in math mode on input line 182.
+LaTeX Warning: Command \l invalid in math mode on input line 204.
 
 Missing character: There is no ª in font plmi8!
-
-LaTeX Warning: Command \l invalid in math mode on input line 183.
-
-Missing character: There is no ª in font plmi8!
-[7 <./generator-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./sprawko.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `sprawko.out' has not changed.
 (rerunfilecheck)             Checksum: 56901FB20DD65FECB8FF09F990A46F4F;481.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 8093 strings out of 493304
- 120772 string characters out of 6139871
- 216295 words of memory out of 5000000
- 11365 multiletter control sequences out of 15000+600000
+ 8119 strings out of 493304
+ 121327 string characters out of 6139871
+ 216297 words of memory out of 5000000
+ 11377 multiletter control sequences out of 15000+600000
  10392 words of font info for 31 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,14n,47p,255b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,47p,255b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/e
 nc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -1019,10 +1141,10 @@ live/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist
 lic/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/pl/plsy8.pfb>
-Output written on sprawko.pdf (8 pages, 176219 bytes).
+Output written on sprawko.pdf (10 pages, 179950 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
