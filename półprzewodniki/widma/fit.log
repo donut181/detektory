@@ -1,0 +1,145 @@
+
+
+*******************************************************************************
+Wed Nov 30 07:35:40 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1/(sqrt(2*pi)*sigma)*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma        
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:42:37 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a/(sqrt(2*pi)*sigma)*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:46:19 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a/(sqrt(2*pi)*sigma)*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.001000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:48:28 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a/(sqrt(2*pi)*sigma)*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.002001e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:48:31 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a/(sqrt(2*pi)*sigma)*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.003003e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:57:33 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.004006e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 07:57:36 2016
+
+
+FIT:    data read from 'kadm'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2923040000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.005010e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov 30 08:00:13 2016
+
+
+FIT:    data read from 'gaus'
+        format = z
+        x range restricted to [5200.00 : 5500.00]
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-(x-u)**2/(2*sigma**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   u             sigma         a            
+   0 5.2922550000e+06   0.00e+00  0.00e+00    1.000000e+00   1.001000e+00   1.006015e+00
+BREAK: Singular matrix in Givens()
