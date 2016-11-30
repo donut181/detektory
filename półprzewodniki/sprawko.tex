@@ -51,7 +51,7 @@
 %                                                CEL ĆWICZENIA                                                               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Wstęp teoretyczny}
-pruda piotr
+Najważniejszym elementem licznika półprzewodnikowego jest złoncze p-n spolaryzowane zaporowo. Detekcja następuje w objętości warstwy zubożonej. Mechanizm detekcji opiera się na kreacji w półprzewodniku par elektron-dziura. Wykrywane promieniowanie wybija elektron z niższych pasm energetycznych kryształu, przenosząc go do pasma przewodnictwa. Dziura która zostaje po elektronie jest zapełniana przez elektrony z pasm wyższych, aż "wydryfują" one do pasma walencyjnego. Ruch dziur w paśmie walencyjnym, i elektronów w paśmie przewodnictwa, upożądkowany przez pole elektryczne tworzy prąd, który możemy zmierzyć.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                PRZEBIEG ĆWICZENIA                                                          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,7 +63,7 @@ pruda piotr
 \item Ustawiamy generator tak, aby generował sygnał testowy, czyli prostokątny o częstotliwości $100Hz$.
 \item Mierzymy odpowiedź analizatora, przy ustalonym czasie pomiaru, na sygnały testowe dla różnych amplitud generowanego sygnału.
 \item Odłączamy generator sygnałów.
-\item Ponownie mierzymy widmo $^{55}Fe$, dla $U_{bias} = 200V$ oraz $t=300s$.
+\item Mierzymy widmo $^{55}Fe$, dla $U_{bias} = 200V$ oraz $t=300s$.
 \item Do pomierzonego widma fitujemy funkcję gaussa, i zapisujemy wyniki.
 \item Analogicznie mierzymy i dopasowywujemy widmo dla $^{109}Cd$, dla $U_{bias} = 200V$ oraz $t=300s$.
 \item Pomierzyliśmy analogiczne i dopasowaliśmy gaussa dla widma srebra, ale przez niedopatrzenie, zapisaliśmy tylko wyniki fitu.
@@ -82,68 +82,6 @@ pruda piotr
 \label{fig1}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_60.tex}}
-\caption{Widmo żelaza przy podanym napięciu 60V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_80.tex}}
-\caption{Widmo żelaza przy podanym napięciu 80V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_100.tex}}
-\caption{Widmo żelaza przy podanym napięciu 100V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_120.tex}}
-\caption{Widmo żelaza przy podanym napięciu 120V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_140.tex}}
-\caption{Widmo żelaza przy podanym napięciu 140V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_160.tex}}
-\caption{Widmo żelaza przy podanym napięciu 160V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{zelazo_200.tex}}
-\caption{Widmo żelaza przy podanym napięciu 200V.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{1_channel.tex}}
-\caption{Zależność położenia piku od napięcia polaryzacji.}
-\label{fig1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\resizebox{.8\linewidth}{!}{\input{1_fwhm.tex}}
-\caption{Zależność FWHM od napięcia polaryzacji.}
-\label{fig1}
-\end{figure}
 
 \begin{figure}[H]
 \centering
@@ -206,8 +144,44 @@ Implikuje to, że $\sigma_{detektor}^2 = 155,91$ kanału.
 Korzystając ze wzoru na współczynnik Fano (\ref{fano}) otrzymujemy
 $$ F = \frac{\sigma_{detektor}^2}{N_0} = \frac{155,91}{1643,04} = 0,095.$$
 Po zaokrągleniu do dzięsiątej częsći po przecinku otrzymujemy dokładnie spodziewaną wartość $0,1$.
+\subsection{Krzywa odpowiedzi detektora}
+Poniżej zamieszczamy wykresiy widma $^{109}Cd$ rys. \ref{figp1} oraz $^{55}Fe$ rys. \ref{figp2}. Wyjeśnienie od czego pochodzą te piki, jakie są ich energie i w którym dokładnie kanale mają maksimum zamieszczamy w tabeli \ref{tabodp}. W tej samej tabeli opisane są również piki dla $^{109}Ag$, od którego nie mamy wykresu widma.
+\begin{longtable}{c|c|c|c}
+\caption{Opis pików $^{109}Cd$ , $^{55}Fe$ oraz $^{109}Ag$}\\
+\label{tabodp}
+Nuklid wywołujący	&rodzaj promieniowania	&kanał	&Energia[keV]	\\ \hline
+\endhead
+$^{109}Ag$ 		& $Ag K_{\beta 1}$	&6125	&24,942		\\
+$^{109}Ag$ 		& $Ag K_{\beta 2}$	&6262   &25,454		\\
+$^{109}Ag$ 		& $Ag K_{\alpha 12}$	&5354	&22,105		\\
+$^{109}Ag$	 	& $Ge K_{\alpha 1}$	&2834	&11,100		\\
+$^{109}Cd$ 		& $Ag K_{\beta 12}$	&6123	&25,407		\\
+$^{109}Cd$ 		& $Ag K_{\alpha 12}$	&5351	&22,105		\\
+$^{55}Fe$ 		& $Fe$ pik główny	&1423	&5,89		\\
+\end{longtable}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\linewidth]{kadm.png}
+\caption{Widmo $^{55}Fe$, $U_{bias}=200V$, $t=300s$}
+\label{figp1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\linewidth]{zelazo.png}
+\caption{Widmo $^{55}Fe$, $U_{bias}=200V$, $t=300s$}
+\label{figp2}
+\end{figure}
+Na podstawie tabeli \ref{tabodp} możemy wykonać wykres krzywej odpowiedzi detektora [rys \ref{krzywaodp}]
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\linewidth]{krzywaodp.png}
+\caption{Krzywa odpowiedzi detektora}
+\label{krzywaodp}
+\end{figure}
+Współczynnik nachylenia prostej, czyli przedział energii na kanał wynosi $407,22/frac{eV}{kanał}$.
 \section{Wnioski}
-
+Analizując widma żelaza dla różnych napięć polaryzacji, można zauważyć że najwyraźniejsze piki dostaje się dla napięcia polazyzacji $U=140V$, jednak różnice wyrażone w zdolności rozdzielczej $R$ nie są znaczące.\\
+Odpowiedż analizatora na sygnał testowy jest zgodna z oczekiwaniami. Wraz ze wzrostem amplitudy sygnału podawanego na wejście analizatora, pik odpowiedzi przesuwa się w stronę wyższych kanałów. Zależność pomiędzy energią a numerek kanału jest z dobrą dokładnością liniowa. Co widać również przy wyznaczaniu krzywej kalibracyjnej.
 \section{Dane pomiarowe}
 
 \begin{longtable}{c|cc|cc}
