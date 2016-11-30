@@ -73,6 +73,7 @@ pruda piotr
 %                                                WYNIKI                                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Wyniki}
+\subsection{Pomiar ze źródłem Fe-55.}
 
 \begin{figure}[H]
 \centering
@@ -130,6 +131,60 @@ pruda piotr
 \label{fig1}
 \end{figure}
 
+\subsection{Pomiar z generatorem sygnałów.}
+Do danych dopasowano prostą(\ref{fit_gen}) i na tej podstawie obliczono amplitudę odpowiadającą kanałowi 1424. 
+Otrzymano $A = 205,7$mV.
+Następnie obliczono ładunek zebrany na kondensatorze separującym generator z analizatorem. 
+Czynnik $\frac{1}{45}$ wynika z dzielnika napięcia w układzie, natomiast $C_f$ to pojemność tego kondensatora.
+$$
+Q=\frac{A}{45} \cdot C_f = \frac{0,2057}{45}\cdot 5,75\cdot 10^{-14} [\text{C}] = 2,62\cdot 10^{-16} [\text{C}]
+$$
+Dzieląc ten ładunek przez ładunek elektronu otrzymujemy ilość par jakie pojawiłyby się w detektorze w tym kanale.
+$$
+N_0 = Q/e = 1643,04
+$$
+Ostatecznie biorąc średnią ważoną linii K$_{\alpha 1}$ i K$_{\alpha 2}$ manganu ze źródła żelaza
+$$
+\text{K}_{\alpha 1\&2} = \frac{5,898*100 + 5,887*50}{150} [\text{keV}]=5,8943 [\text{keV}]
+$$
+i dzieląc tę wartość przez $N_0$ otrzymujemy pracę wyjścia w detektorze:
+\begin{equation}
+	W = \frac{\text{K}_{\alpha 1\&2}}{N_0} = 3,587 [\text{eV}].
+\end{equation}
+Jest to wartość zgodna z oczekiwaną wartością $3,6$eV.
+
+\begin{equation}
+	K = 7529(99)[\text{1/V}] \cdot A -125(65)
+	\label{fit_gen}
+\end{equation}
+\begin{figure}[H]
+\centering
+\resizebox{.8\linewidth}{!}{\input{generator.tex}}
+\caption{Pomiar z podłączonym generatorem sygnałów.}
+\label{fig1}
+\end{figure}
+
+\subsection{Pomiar współczynnika Fano}
+\begin{equation}
+	\sigma_{całk.}^2 = \sigma_{detektor}^2 + \sigma_{szum}^2
+	\label{sigmy}
+\end{equation}
+\begin{equation}
+	\sigma_{detektor}^2 = F\cdot N_0
+	\label{fano}
+\end{equation}
+Przy użyciu generatora sygnałów zmierzono również szerokość połówkową odpowiadającą kanałowi 1424:
+$$FWHM_{gen} = 46,92.$$
+Założono przy tym, że odpowiada to wariancji szumu w równaniu(\ref{sigmy}), czyli
+$$\sigma_{szum} = \frac{46,92}{2,35} = 19,966~ \text{kanału}. $$
+Zmierzono również szerokość połówkową żelaza i otrzymano
+$$FWHM_{Fe} = 55,34.$$
+Założono, że odpowiada to $\sigma_{całk.}$, więc
+$$\sigma_{całk.} = \frac{55,34}{2,35} = 23,549~ \text{kanału}.$$
+Implikuje to, że $\sigma_{detektor}^2 = 155,91$ kanału.
+Korzystając ze wzoru na współczynnik Fano (\ref{fano}) otrzymujemy
+$$ F = \frac{\sigma_{detektor}^2}{N_0} = \frac{155,91}{1643,04} = 0,095.$$
+Po zaokrągleniu do dzięsiotej częsći po przecinku otrzymujemy dokładnie spodziewaną wartość $0,1$.
 \section{Wnioski}
 
 \section{Dane pomiarowe}
